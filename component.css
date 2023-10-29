@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a background color and better line spacing */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Add horizontal lines above all <h1> elements */
+h1 {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* Define a common style for sections */
+.section {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+/* Center-align <h1> elements and style them */
+h1 {
+    font-size: 50px;
+    font-style: normal ;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+/* Left-align <h2> elements and style them */
+h2 {
+    font-size: 27px;
+    font-style: normal;;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px; /* Space after the heading */
+}
+
+/* Add space in the left and right areas for content */
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Add spacing before and after paragraphs */
+p {
+    margin: 0 0 10px;
+}
+
+/* Add space before the first paragraph in each section */
+.intro p:first-child,
+.method p:first-child {
+    margin-top: 15px;
+}
+
+/* Add space before and after <h2> elements */
+h2 {
+    margin: 20px 0;
+}
+
+/* Modify the team-cv styles */
+
+.cv span{
+    text-decoration: none;
+}
+
+/* Modify the styles for the four links (report, ppt, video, and code) */
+
+.link-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.link-block a {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.link-block a:hover {
+    background-color: #333333;
+}
